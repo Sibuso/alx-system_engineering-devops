@@ -1,8 +1,2 @@
 #!/bin/bash
-
-if [ -f /tmp/my_first_directory/betty ]; then
-   rm /tmp/my_first_directory/betty
-   echo "The file betty has been deleted."
-else
-   echo "There is no such file in tmp/my_first_directory."
-fi
+[ -f /tmp/my_first_directory/betty ] && rm /tmpmy_first_directory/betty
