@@ -1,2 +1,3 @@
 #!/bin/bash
-cp -ruv ./*.html ..
+rsync -u --ignore-existing --prune-empty-dirs --include='*.html' --exclude='*' ./ ../
+
