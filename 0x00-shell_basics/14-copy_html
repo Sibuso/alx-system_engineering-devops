@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -u --ignore-existing --prune-empty-dirs --include='*.html' --exclude='*' ./ ../
+rsync -u --ignore-existing --prune-empty-dirs --include='*.html' --exclude='*' ./ ../ ls -l ../
