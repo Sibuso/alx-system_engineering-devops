@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script displays a confused smiley "(Ôo)'.
+
+echo '"(Ôo)'\'''
